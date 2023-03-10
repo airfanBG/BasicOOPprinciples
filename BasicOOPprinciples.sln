@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommonMistakes", "CommonMistakes", "{38821B59-D0CD-47DB-8D71-9E4C88C2B897}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. TightCoupling-Bad", "Mistakes\2. TightCoupling-Bad\2. TightCoupling-Bad.csproj", "{3845048E-5545-4B22-A8EC-AC5773FB304F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TightCoupling-Bad", "Mistakes\TightCoupling-Bad\TightCoupling-Bad.csproj", "{935D7FF3-FBB8-48D1-82ED-E506ED065CA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TightCoupling-Better", "Mistakes\TightCoupling-Better\TightCoupling-Better.csproj", "{D77741D5-A5C8-4ED4-9545-764947A3A840}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Principles", "Principles", "{2EBCC2D0-131C-4694-8271-1C7B7F73C057}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassRoom-Polymorphism", "Principles\ClassRoom\ClassRoom-Polymorphism.csproj", "{5DD86AA2-0898-432B-B84B-EEE193E44C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. TightCoupling-Better", "2. TightCoupling-Better\2. TightCoupling-Better.csproj", "{74B53AEF-391F-45D1-99B0-B6034966E14B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6383BA56-FA10-4007-8D0F-819DBEFAC05C}"
+	ProjectSection(SolutionItems) = preProject
+		Files\Clean-Architecture-V1.0.pdf = Files\Clean-Architecture-V1.0.pdf
+		Files\Clean-Code-V2.4.pdf = Files\Clean-Code-V2.4.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{2DC64083-B86C-4254-8B1E-4D4BF67FD429}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3845048E-5545-4B22-A8EC-AC5773FB304F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3845048E-5545-4B22-A8EC-AC5773FB304F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3845048E-5545-4B22-A8EC-AC5773FB304F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3845048E-5545-4B22-A8EC-AC5773FB304F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{935D7FF3-FBB8-48D1-82ED-E506ED065CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935D7FF3-FBB8-48D1-82ED-E506ED065CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935D7FF3-FBB8-48D1-82ED-E506ED065CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{935D7FF3-FBB8-48D1-82ED-E506ED065CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77741D5-A5C8-4ED4-9545-764947A3A840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77741D5-A5C8-4ED4-9545-764947A3A840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77741D5-A5C8-4ED4-9545-764947A3A840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77741D5-A5C8-4ED4-9545-764947A3A840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DD86AA2-0898-432B-B84B-EEE193E44C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DD86AA2-0898-432B-B84B-EEE193E44C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DD86AA2-0898-432B-B84B-EEE193E44C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DD86AA2-0898-432B-B84B-EEE193E44C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B53AEF-391F-45D1-99B0-B6034966E14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B53AEF-391F-45D1-99B0-B6034966E14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B53AEF-391F-45D1-99B0-B6034966E14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B53AEF-391F-45D1-99B0-B6034966E14B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3845048E-5545-4B22-A8EC-AC5773FB304F} = {38821B59-D0CD-47DB-8D71-9E4C88C2B897}
+		{935D7FF3-FBB8-48D1-82ED-E506ED065CA6} = {38821B59-D0CD-47DB-8D71-9E4C88C2B897}
+		{D77741D5-A5C8-4ED4-9545-764947A3A840} = {38821B59-D0CD-47DB-8D71-9E4C88C2B897}
+		{5DD86AA2-0898-432B-B84B-EEE193E44C1C} = {2EBCC2D0-131C-4694-8271-1C7B7F73C057}
+		{74B53AEF-391F-45D1-99B0-B6034966E14B} = {38821B59-D0CD-47DB-8D71-9E4C88C2B897}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A519B173-DD39-4454-A2D2-4DDAB9313E61}
+	EndGlobalSection
+EndGlobal
